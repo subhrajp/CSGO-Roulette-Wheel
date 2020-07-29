@@ -1,2 +1,2 @@
-# subhrajp.github.io
+# CSGO Fortune Wheel Simulation
 Fake gifts LOL
