@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>CSGO Wheel</title>
   <link rel="icon" href="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/24/csgo-icon.png">
   <div style = "text-align:center;">
@@ -11,17 +11,23 @@
   input[type=button] {
   display: inline-block;
   border-radius: 10px;
-  background-color: #000000;
-  border: none;
-  color: #FFFFFF;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid #000000;
+  color: #000000;
   text-align: center;
   font-size: 20px;
   padding: 20px;
   width: 150px;
-  transition: all 0.5s
+  transition: all 0.4s ease;
   cursor: pointer;
   margin: 10px;
   }
+    
+  input[type=button]:hover {
+  background-color: rgba(0,0,0,1);
+  color: #FFFFFF;
+  }
+  
   body {
   /*background-color:#ffe9d1;*/
   background-image: url('https://bit.ly/3glptzP');
@@ -38,7 +44,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div style = "text-align:center;">
-<input type="button" value="gift ploxx" id='spin' /> 
+<input type="button" value="spin to win" id='spin' /> 
 </div>
 <div style = "text-align:center;">
 <canvas id="canvas" width="500" height="500"></canvas>
@@ -46,7 +52,7 @@
 </div>
 <div style = "text-align:center;">
 <a href = "https://github.com/subhrajp">
-<img alt = "GitHub" src = "https://pngimg.com/uploads/github/github_PNG20.png" width = "55.36" height = "50">
+<img alt = "GitHub" src = "https://i.pinimg.com/originals/b7/21/32/b72132a9b5c6dd6faae9b28d85a822fb.png" width = "150" height = "150">
 </a>
 </div>
 <!-- partial -->
