@@ -115,6 +115,7 @@ function stopRotateWheel() {
   var index = Math.floor((360 - degrees % 360) / arcd);
   ctx.save();
   ctx.font = 'bold 30px Arial';
+  ctx.fillStyle = 'white';
   var text = options[index];
   var tx = "Thank You :)";
   ctx.fillText(text, 250 - ctx.measureText(text).width / 2, 250 -10);
